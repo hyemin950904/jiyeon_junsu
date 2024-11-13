@@ -4,32 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>준수❤️지연 결혼합니다</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap" rel="stylesheet">
     <style>
-        *{margin: 0; padding: 0;}
-        body {color: #333; scroll-behavior: smooth;}
+        *{margin: 0; padding: 0; box-sizing: border-box;} 
+        body {color: #333; scroll-behavior: smooth; background-color: #EFEFEF;}
         ul {list-style: none;}
         a {text-decoration: none; color: inherit;}
-
-        @media screen and (max-width: 400px) {
-            #wrap{
-                width: 100%;
-                height: 100vh;
-                background-color: #333;
-            }
-            header {
-                width: 100%;
-                position: relative;
-            }
-            header>img:first-child {
-                max-width: 100%;
-            }
-            header>img:last-child {
-                position: absolute;
-                bottom: 0;
-                left: 0;
-
-            }
+        #wrap {
+            width: 500px;
+            margin: 0 auto;
+            background-color: url(./img1/img/배경화면.jpg);
         }
+        .top {
+            margin: 40px 0px 0px 0px;
+            width: 100%;
+            height: 100px;
+            text-align: center;
+        }
+        .top>ul {}
+        .top>ul>li {}
+        .top>ul>li>a {
+            display: block;
+            height: 40px;
+        }
+        .top h3 {
+            font-size: 25px;
+        }
+        .top2 {
+            width: 100%;
+            height: 500px;
+            padding: 5px;
+            position: relative;
+        }
+        .top2>ul {}
+        .top2>ul>li {}
+        .top2>ul>li>a:last-child {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .top2 img {
+            width: 500px;
+            height: auto;
+        }
+        
         
         
 
@@ -44,8 +64,19 @@
 <body>
     <div id="wrap">
         <header>
-            <img src="./img1/img/@CBY-57 복사.jpg" alt="대표사진1">
-            <img src="./img1/img/We are getting Married ! (400 x 200 px).gif">
+            <div class="top">
+                <ul>    
+                    <li><a href="#"><h3>2025 / 02 / 08</h3></a></li>
+                    <li><a href="#"><p>S T A U R D A Y</p></a></li>
+                </ul>
+            </div>
+            <div class="top2">
+                <ul>
+                    <li><a href="#"><img src="./img1/img/최종.jpg" alt="대표사진1"></a></li>
+                    <li><a href="#"><img src="./img1/img/We are getting Married ! (400 x 200 px).gif" alt="텍스트이미지"></a></li>
+                </ul>
+            </div>
+            
         </header>
     </div>
 </body>
